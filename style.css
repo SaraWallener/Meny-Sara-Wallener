@@ -136,27 +136,27 @@ footer {
 
 @keyframes images {
   0% {
-    background-image: url("/images/pexels-brett-jordan-825661.jpg");
+    background-image: url("./images/pexels-brett-jordan-825661.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   25% {
-    background-image: url("/images/pexels-nadin-sh-8694617.jpg");
+    background-image: url("./images/pexels-nadin-sh-8694617.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   50% {
-    background-image: url("/images/pizza.jpg");
+    background-image: url("./images/pizza.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   75% {
-    background-image: url("/images/pexels-kasumi-loffler-3535383.jpg");
+    background-image: url("./images/pexels-kasumi-loffler-3535383.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   100% {
-    background-image: url("/images/pizza-300x300.png");
+    background-image: url("./images/pizza-300x300.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
