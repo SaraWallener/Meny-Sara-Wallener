@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  color: #c7ad57;
+  font-family: "Ubuntu", sans-serif;
+  background-image: url("/images/pexels-brett-jordan-825661.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  margin-top: 2vh;
+  opacity: 93%;
+  border-radius: 3em 3em 0 0;
+  background: #000000;
+}
+
+header,
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  width: calc(50vw - 5vw);
+  height: calc(50vh - 5vh);
+  border-radius: 0.5em;
+  padding: 4rem;
+  animation-name: images;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+header {
+  padding: 3rem;
+}
+nav {
+  text-align: center;
+}
+nav > h1 {
+  font-size: 3em;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+.nav-list > li {
+  display: inline;
+  letter-spacing: 0.3em;
+  padding: 0.5rem;
+  line-height: 3em;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #c7ad57;
+}
+.nav-list > li:hover,
+a:active {
+  background: #c7ad57c4;
+}
+ul {
+  list-style-type: none;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  width: 50vw;
+}
+
+article > h2 {
+  text-align: center;
+}
+
+ol > li,
+ul > li {
+  padding: 0.5em;
+  margin-top: 2vh;
+  font-size: clamp(1em, 1vw, 1.5em);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(1em, 1vw, 1.5em);
+}
+
+.menu-items {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 0.5vh;
+}
+
+.ingred {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > p {
+  letter-spacing: 0.2em;
+}
+
+.material-icons {
+  margin-right: 0.5em;
+}
+
+@keyframes images {
+  0% {
+    background-image: url("/images/pexels-brett-jordan-825661.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  25% {
+    background-image: url("/images/pexels-nadin-sh-8694617.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background-image: url("/images/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  75% {
+    background-image: url("/images/pexels-kasumi-loffler-3535383.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background-image: url("/images/pizza-300x300.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
